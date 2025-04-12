@@ -39,7 +39,7 @@ fair.__version__
 # %%
 f = FAIR(ch4_method='Thornhill2021')
 f.define_time(1750, 2500, 1)
-scenarios = ['ssp119', 'ssp126']#, 'ssp245', 'ssp370', 'ssp434', 'ssp460', 'ssp534-over', 'ssp585']
+scenarios = ['ssp119', 'ssp126', 'ssp245', 'ssp370', 'ssp434', 'ssp460', 'ssp534-over', 'ssp585']
 f.define_scenarios(scenarios)
 
 # %%
